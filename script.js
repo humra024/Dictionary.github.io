@@ -24,7 +24,7 @@ result.innerHTML =
     <div class="word">
         <h3>${inpWord}</h3>
         <span>
-        <audio controls src="${data[0].phonetics[0].audio}"></audio>
+        <audio class="audio" controls src="${data[0].phonetics[0].audio}"></audio>
         </span>
     </div>
     <div class="details">
